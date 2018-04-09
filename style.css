@@ -1,7 +1,6 @@
 header
 {
   display: flex;
-  height: 142px;
   align-items: center;
   justify-content: space-evenly;
   width: auto;
@@ -26,7 +25,6 @@ header
   margin-right: 3em;
   padding-bottom: 0.5em;
   text-align: right;
-
   -webkit-font-smoothing: antialiased;
 }
 .header_block1_text2
@@ -35,7 +33,6 @@ header
   font-size: 17px;
   font-family: 'Myriad Pro';
   -webkit-font-smoothing: antialiased;
-
 }
 .logo
 {
@@ -717,9 +714,76 @@ footer
   width: 100%;
   text-align: center;
   margin-top: 15em;
+  padding: 15px 0px;
 }
 .copyrights_text
 {
   text-align: center;
   color: #424443;
+}
+/* End of Desktop View */
+@media only screen and (max-width: 992px)
+{
+  .header_block1
+  {
+    display: none;
+  }
+  .logo
+  {
+    margin-right: 27em;
+
+  }
+  .logo_text1
+  {
+    font-size: 1em;
+  }
+  .logo_text2
+  {
+    font-size: 1em;
+  }
+  .logo_design
+  {
+    width: 4em;
+    margin-left: 1.75em;
+  }
+  .logo_text3
+  {
+    font-size: 6px;
+    margin-left: 5em;
+  }
+
+  .about_us_img
+  {
+    display: none;
+  }
+  .welcome_image_list
+  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 10px;
+  }
+  .welcome_img1
+  {
+    margin-left: .85em;
+    width: 28em;
+  }
+  .welcome_img2
+  {
+    margin-left: .85em;
+    margin-top: 2em;
+    width: 28em;
+
+  }
+  .welcome_img3
+  {
+    margin-left: .85em;
+    margin-top: 2em;
+    width: 28em;
+  }
+  .services
+  {
+    display: none;
+  }
+
 }
